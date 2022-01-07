@@ -17,12 +17,26 @@ To test this API locally, you need to have [Node.js](https://nodejs.org/en/) ins
 I have use Nodemon along this API development. To run this API using Nodemon, simply type
 
 ```Shell
-  npm run dev
+  	npm run dev
 ```
+then, it will listening port on `4505`    
 
 
 or, you can use built-in Node.js server. Just type
 
 ```Shell
-  node index.js
+  	node index.js
 ```
+then, it will listening port on `4505`   
+
+
+## Available API Routes
+
+`GET` : `http://localhost:4505/todos`    
+`GET` : `http://localhost:4505/todos/:id`     
+`POST` : `http://localhost:4505/todos`      
+`PUT` : `http://localhost:4505/todos/:id`    
+`DELETE` : `http://localhost:4505/todos/:id`    
+
+
+
